@@ -147,8 +147,7 @@ body{
 
 @media screen and (min-width: 375px) and (max-width: 500px) {
   body{
-    margin: 20px;
-    margin-left: 50px;
+   margin: 20px 20px;
   }
   .navbar a{
     display: none;
@@ -164,12 +163,12 @@ body{
   .toggle-button{
     display: block;
     margin-top: -30px;
-    margin-left: 350px;
+    margin-left: 300px;
   }
 
   .image-desktop{
     src: url(images/image-web-3-mobile.jpg);
-    width: 400px;
+    width: 350px;
     height: 250px;
   }
 
@@ -229,10 +228,10 @@ body{
     z-index: 99;
   }
 
-  .dropdown-menu{
+  /* .dropdown-menu{
     background-color: #fff;
     height: 100%;
-    width: 300px;
+    width: 100vw;
     position: fixed;
     z-index: 100;
     top: 0;
@@ -242,8 +241,8 @@ body{
   }
 
   .dropdown-menu img{
-    margin-left: 250px;
-  }
+    margin-left: 100px;
+  } */
 
   .dropdown-menu ul{
     padding-top: 100px;

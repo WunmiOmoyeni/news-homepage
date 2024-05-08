@@ -20,7 +20,7 @@ export const Navbar = () => {
   }
   return (
     <div>
-      {isDropdownOpen && <div className='overlay'></div>}
+      {isDropdownOpen && <div className='overlay' onClick={closeDropdown}></div>}
       <div className='navbar'>
       <nav>
       <img src={logo} alt='Logo' className='logo-navbar'></img>
