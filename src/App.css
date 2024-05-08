@@ -147,7 +147,7 @@ body{
 
 @media screen and (min-width: 375px) and (max-width: 500px) {
   body{
-   margin: 20px 20px;
+   margin: 70px 20px;
   }
   .navbar a{
     display: none;
@@ -228,21 +228,22 @@ body{
     z-index: 99;
   }
 
-  /* .dropdown-menu{
+   .dropdown-menu{
     background-color: #fff;
     height: 100%;
     width: 100vw;
+    margin-left: 70px;
     position: fixed;
     z-index: 100;
     top: 0;
-    right: 0;
+    right: 50;
     overflow-x: hidden;
     padding-top: 20px;
   }
 
   .dropdown-menu img{
-    margin-left: 100px;
-  } */
+    margin-left: 250px;
+  } 
 
   .dropdown-menu ul{
     padding-top: 100px;
@@ -252,5 +253,11 @@ body{
     list-style: none;
     margin-bottom: 50px;
     font-weight: 700;
+    font-size: 25px;
+  }
+
+  .dropdown-menu li:hover{
+    font-size: 30px;
+    transition-delay: 3ms;
   }
 }
