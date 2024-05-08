@@ -232,7 +232,7 @@ body{
     background-color: #fff;
     height: 100%;
     width: 100vw;
-    margin-left: 70px;
+    margin-left: 100px;
     position: fixed;
     z-index: 100;
     top: 0;
@@ -242,7 +242,7 @@ body{
   }
 
   .dropdown-menu img{
-    margin-left: 250px;
+    margin-right: 0;
   } 
 
   .dropdown-menu ul{
@@ -253,11 +253,11 @@ body{
     list-style: none;
     margin-bottom: 50px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .dropdown-menu li:hover{
     font-size: 30px;
-    transition-delay: 3ms;
+    transition-delay: 3s;
   }
 }
